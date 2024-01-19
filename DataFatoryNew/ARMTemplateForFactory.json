@@ -118,7 +118,13 @@
 						},
 						"userProperties": [],
 						"typeProperties": {
-							"storedProcedureName": "[[dbo].[GetCustomerDetails]"
+							"storedProcedureName": "[[dbo].[GetCustomerDetails]",
+							"storedProcedureParameters": {
+								"CustomerID": {
+									"value": "277",
+									"type": "Int32"
+								}
+							}
 						},
 						"linkedServiceName": {
 							"referenceName": "AzureSynapseAnalytics1",
