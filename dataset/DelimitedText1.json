@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "customers",
+				"folderPath": "dimCustomers",
 				"fileSystem": "csv"
 			},
 			"columnDelimiter": ",",
